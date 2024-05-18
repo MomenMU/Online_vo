@@ -1,0 +1,34 @@
+[debug] [2024-05-12T18:54:38.544Z] ----------------------------------------------------------------------
+[debug] [2024-05-12T18:54:38.558Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\CompuCenter\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2024-05-12T18:54:38.559Z] CLI Version:   13.8.3
+[debug] [2024-05-12T18:54:38.560Z] Platform:      win32
+[debug] [2024-05-12T18:54:38.562Z] Node Version:  v20.13.1
+[debug] [2024-05-12T18:54:38.563Z] Time:          Sun May 12 2024 21:54:38 GMT+0300 (Eastern European Summer Time)
+[debug] [2024-05-12T18:54:38.564Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-12T18:54:39.143Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-12T18:54:39.145Z] > authorizing via signed-in user (momenhaker701@gmail.com)
+[debug] [2024-05-12T18:54:39.147Z] [iam] checking project online-voting-system-b67ea for permissions ["firebase.projects.get"]
+[debug] [2024-05-12T18:54:39.156Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/online-voting-system-b67ea:testIamPermissions [none]
+[debug] [2024-05-12T18:54:39.157Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/online-voting-system-b67ea:testIamPermissions x-goog-quota-user=projects/online-voting-system-b67ea
+[debug] [2024-05-12T18:54:39.159Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/online-voting-system-b67ea:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-05-12T18:54:40.059Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/online-voting-system-b67ea:testIamPermissions 200
+[debug] [2024-05-12T18:54:40.061Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/online-voting-system-b67ea:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-05-12T18:54:40.064Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/online-voting-system-b67ea [none]
+[debug] [2024-05-12T18:54:40.556Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/online-voting-system-b67ea 200
+[debug] [2024-05-12T18:54:40.557Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/online-voting-system-b67ea {"projectId":"online-voting-system-b67ea","projectNumber":"767989401994","displayName":"Online Voting system","name":"projects/online-voting-system-b67ea","resources":{"hostingSite":"online-voting-system-b67ea"},"state":"ACTIVE","etag":"1_24ff972e-94f2-4bb4-8230-ccf6ac3f3fb7"}
+[info] 
+[info] === Serving from 'C:\xampp\htdocs\pro\pro'...
+[info] 
+[debug] [2024-05-12T18:54:40.579Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/online-voting-system-b67ea/sites 
+[debug] [2024-05-12T18:54:41.664Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/online-voting-system-b67ea/sites 200
+[debug] [2024-05-12T18:54:41.664Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/online-voting-system-b67ea/sites {"sites":[{"name":"projects/online-voting-system-b67ea/sites/online-voting-system-b67ea","defaultUrl":"https://online-voting-system-b67ea.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2024-05-12T18:54:41.666Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/online-voting-system-b67ea/webApps/-/config [none]
+[debug] [2024-05-12T18:54:42.912Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/online-voting-system-b67ea/webApps/-/config 200
+[debug] [2024-05-12T18:54:42.913Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/online-voting-system-b67ea/webApps/-/config {"projectId":"online-voting-system-b67ea","storageBucket":"online-voting-system-b67ea.appspot.com","apiKey":"AIzaSyBWjk7subYBDFkaozQJIIGBnN_CAZnC49M","authDomain":"online-voting-system-b67ea.firebaseapp.com","messagingSenderId":"767989401994"}
+[debug] [2024-05-12T18:54:42.926Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/online-voting-system-b67ea [none]
+[debug] [2024-05-12T18:54:43.178Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/online-voting-system-b67ea 200
+[debug] [2024-05-12T18:54:43.179Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/online-voting-system-b67ea {"projectId":"online-voting-system-b67ea","projectNumber":"767989401994","displayName":"Online Voting system","name":"projects/online-voting-system-b67ea","resources":{"hostingSite":"online-voting-system-b67ea"},"state":"ACTIVE","etag":"1_24ff972e-94f2-4bb4-8230-ccf6ac3f3fb7"}
+[info] i  hosting[online-voting-system-b67ea]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[online-voting-system-b67ea]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [12/May/2024:18:55:01 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [12/May/2024:18:55:01 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0\""}}
